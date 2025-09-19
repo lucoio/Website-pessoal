@@ -29,7 +29,7 @@ Website Pessoal
 
 Explicação detalhada
 
-HTML - A Base de Tudo
+HTML - A Base
 
 O arquivo HTML funciona como um documento estruturado:
 
@@ -62,9 +62,9 @@ Conceitos importantes:
 - IDs: id="inicio" cria identificadores únicos para navegação
 - Links âncora: href="#inicio" faz o link apontar para uma seção específica
 
-CSS - A Beleza Visual
+CSS - A Aparência do site
 
-O CSS funciona como um sistema de regras de estilo:
+O CSS funciona como codigos de estilo para o site:
 
 /* Reset básico - remove estilos padrão do navegador */
 * {
@@ -104,9 +104,9 @@ Conceitos importantes:
 - Valores: #fff (branco), 1rem (unidade de medida), 4px (pixels)
 - Pseudo-classes: :hover ativa estilos quando o mouse passa por cima
 
-JavaScript - A Mágica Interativa
+JavaScript - A Parte a interativa
 
-O JavaScript adiciona comportamento dinâmico:
+O JavaScript adiciona interações:
 
 // Aguarda o HTML carregar completamente
 document.addEventListener('DOMContentLoaded', function() {
@@ -185,21 +185,6 @@ Efeitos Visuais
 - Sombras: Elementos têm sombras sutis para profundidade
 - Transições: Mudanças são suaves, não abruptas
 
-Como executar
-
-Método 1: Abrir diretamente
-1. Baixe todos os arquivos
-2. Renomeie os arquivos para:
-   - Website_Pessoal_Luis_Henrique.html → index.html
-   - Website_Pessoal_Luis_Henrique.css → style.css
-   - Website_Pessoal_Luis_Henrique.js → script.js
-3. Clique duas vezes no index.html
-
-Método 2: Servidor local (recomendado)
-1. Instale uma extensão "Live Server" no VS Code
-2. Clique com botão direito no index.html
-3. Selecione "Open with Live Server"
-
 Tecnologias utilizadas
 
 HTML5 - Estrutura e semântica do conteúdo
@@ -217,40 +202,9 @@ Este projeto demonstra:
 - Acessibilidade: Navegação por teclado, contraste adequado
 - Performance: Código otimizado sem frameworks pesados
 
-Para iniciantes
+-----
 
-Se você está começando em desenvolvimento web, este projeto é perfeito porque:
-
-1. Não usa frameworks complexos - apenas HTML, CSS e JS puros
-2. Código bem comentado - cada parte é explicada
-3. Conceitos fundamentais - ensina as bases do desenvolvimento web
-4. Projeto real - não é apenas um tutorial, é um site funcional
-5. Fácil de modificar - você pode experimentar e aprender
-
-Como personalizar
-
-Alterar cores:
-/* No arquivo CSS, mude estas variáveis */
-.site-header { background: #sua-cor-aqui; }
-.hero h2 { color: #sua-cor-aqui; }
-
-Adicionar novas seções:
-<!-- No HTML, adicione uma nova seção -->
-<section id="nova-secao" class="content-section">
-  <h2>Nova Seção</h2>
-  <p>Conteúdo da nova seção</p>
-</section>
-
-<!-- E um link no menu -->
-<a href="#nova-secao">Nova Seção</a>
-
-Modificar animações:
-/* Mude a duração das transições */
-transition: all 0.5s;  /* Era 0.3s, agora é 0.5s */
-
----
-
-Desenvolvido com amor por Luis Henrique
+Desenvolvido por Luis Henrique
 
 Estudante de Análise e Desenvolvimento de Sistemas
 Universidade Veiga de Almeida (2025)
