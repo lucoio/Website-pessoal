@@ -1,0 +1,46 @@
+CORREÇÃO DE BUG - Referências de arquivos CSS e JavaScript
+
+PROBLEMA IDENTIFICADO:
+O website estava aparecendo completamente branco (sem estilos) porque o arquivo HTML estava procurando pelos arquivos CSS e JavaScript com nomes diferentes dos arquivos reais.
+
+CAUSA RAIZ:
+- O HTML estava referenciando: "style.css" e "script.js"
+- Mas os arquivos se chamavam: "Website_Pessoal_Luis_Henrique.css" e "Website_Pessoal_Luis_Henrique.js"
+- Quando o navegador não encontra os arquivos CSS/JS, ele mostra apenas o HTML puro (texto sem formatação)
+
+SOLUÇÃO IMPLEMENTADA:
+1. Atualizei o arquivo HTML para referenciar os nomes corretos:
+   - Mudou: <link rel="stylesheet" href="style.css">
+   - Para: <link rel="stylesheet" href="Website_Pessoal_Luis_Henrique.css">
+
+   - Mudou: <script src="script.js" defer></script>
+   - Para: <script src="Website_Pessoal_Luis_Henrique.js" defer></script>
+
+2. Organizei todos os arquivos com nomes consistentes:
+   - Website_Pessoal_Luis_Henrique.html
+   - Website_Pessoal_Luis_Henrique.css
+   - Website_Pessoal_Luis_Henrique.js
+   - README.md
+   - README.txt
+
+RESULTADO:
+- Website agora carrega corretamente com todos os estilos
+- Funcionalidades JavaScript funcionando (navegação suave, links ativos)
+- Design responsivo aplicado
+- Animações e efeitos visuais funcionando
+
+TESTE REALIZADO:
+- Arquivo HTML aberto no navegador
+- Verificação de que CSS está sendo aplicado
+- Teste de funcionalidades JavaScript
+- Confirmação de que site não está mais "branco"
+
+IMPACTO:
+- Site voltou ao funcionamento normal
+- Todas as funcionalidades restauradas
+- Experiência do usuário corrigida
+
+TIPO DE BUG: Referência de arquivo incorreta
+SEVERIDADE: Alta (site completamente inutilizável)
+STATUS: Corrigido e testado
+
